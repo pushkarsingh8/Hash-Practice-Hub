@@ -27,12 +27,13 @@ def Find_Majority_Element(arr):
             print("Majority Element: ",num)
             break
 
+        else:
+            
+            print(-1)
 
-    print(-1)
 
 
-
-arr = [3, 3, 4, 2, 4, 4, 2, 4]
+arr = [3]
 
 Find_Majority_Element(arr)
 
